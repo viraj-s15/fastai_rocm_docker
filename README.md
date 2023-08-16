@@ -1,6 +1,6 @@
 # fastai_rocm
 
-**This project is functional, I have however, found a better way**
+**This docker image is functional, I have however, found a better way**
 - Install pytorch for rocm via pip from <a href="https://pytorch.org/get-started/locally/">here</a>
 - Install fastai normally using the command `pip install fastapi`
 - Thats it, it works, tensorflow has the exact same process
