@@ -1,5 +1,6 @@
 # fastai_rocm
 
+## NOTE:
 **This docker image is functional, I have however, found a better way**
 - Install pytorch for rocm via pip from <a href="https://pytorch.org/get-started/locally/">here</a>
 - Install fastai normally using the command `pip install fastai`
@@ -14,6 +15,7 @@ I am able to use the discrete gpu with torch just as I would with cuda.
 If one still wants to confirm whether, the gpu is active or not, you can run
 `python main.py` and look at the time difference. 
 
+--------------------------------------------------------------------------------------------------------------------------------
 
 This project generates a docker image that enables rapid development with the [fast.ai v1](https://github.com/fastai/fastai) library with Modern AMD graphics cards through the [Rocm stack](https://github.com/RadeonOpenCompute/ROCm).
 
