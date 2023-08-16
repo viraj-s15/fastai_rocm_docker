@@ -11,6 +11,9 @@
 ![image](https://github.com/viraj-s15/fastai_rocm_docker/assets/79002760/42742dd7-3b7a-416e-95cb-120c0053c522)
 
 I am able to use the discrete gpu with torch just as I would with cuda. 
+If one still wants to confirm whether, the gpu is active or not, you can run
+`python main.py` and look at the time difference. 
+
 
 This project generates a docker image that enables rapid development with the [fast.ai v1](https://github.com/fastai/fastai) library with Modern AMD graphics cards through the [Rocm stack](https://github.com/RadeonOpenCompute/ROCm).
 
