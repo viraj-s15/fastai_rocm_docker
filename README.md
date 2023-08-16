@@ -1,5 +1,8 @@
 # fastai_rocm
 
+**_This is broken at the moment, WORK IN PROGRESS_**
+
+
 This project generates a docker image that enables rapid development with the [fast.ai v1](https://github.com/fastai/fastai) library with Modern AMD graphics cards through the [Rocm stack](https://github.com/RadeonOpenCompute/ROCm).
 
 This docker image contains:
